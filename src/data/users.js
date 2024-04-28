@@ -28,4 +28,8 @@ export const users = [
     name: 'Paweł Roman',
     average: '2.4',
   },
+  {
+    name: 'Duży Palec',
+    average: '1.9',
+  },
 ];
