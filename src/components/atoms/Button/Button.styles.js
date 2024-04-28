@@ -7,6 +7,7 @@ export const StyledButton = styled.button`
   border-radius: 50px;
   border: none;
   color: white;
+  align-self: flex-start;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,4 +15,6 @@ export const StyledButton = styled.button`
     width: 100%;
     height: 100%;
   }
+  position: relative;
+  top: -3px;
 `;
