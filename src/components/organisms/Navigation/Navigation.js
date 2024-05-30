@@ -1,5 +1,5 @@
 import React from 'react';
-import { Logo, StyledLink, Wrapper } from 'components/organisms/Navigation/Navigation.styles';
+import { Logo, StyledLink, Wrapper } from './Navigation.styles';
 
 const Navigation = () => {
   return (
@@ -13,8 +13,6 @@ const Navigation = () => {
       </Logo>
       <StyledLink to="/">Dashboard</StyledLink>
       <StyledLink to="/add-user">Add user</StyledLink>
-      <StyledLink to="/">Settings</StyledLink>
-      <StyledLink to="/">Logout</StyledLink>
     </Wrapper>
   );
 };
